@@ -1,5 +1,6 @@
 clc
 close all
+% Add commment for reference
 
 %Induction Motor frameling
 global R        %Resistance Matrix for QD framel 
