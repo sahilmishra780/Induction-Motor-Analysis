@@ -14,7 +14,7 @@ global k        %Torque Constant
 global frame    %Frame of Reference for DQ Model: 1:Synchronous Frame, 2:Stationary frame, 3:Rotor Frame
 
 %Specify Frame of Reference
-frame = 2;
+frame = 3;
 
 %Mechanical Parameters
 J = 3.1; Tl = 10; 
