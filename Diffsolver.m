@@ -2,7 +2,7 @@ function xdot = Diffsolver(t,x)
 global R L v p J Tl k frame f
 tee = t;
 
-%Phase Voltage: No initial phase for Vas. A-B-C sequence for Voltage
+%Phase Voltage: No initial phase for Vas. A-B-C sequence for Voltage, Dummy Comment
 vas = sqrt(2/3)*v*cos(2*pi*f*tee);
 vbs = sqrt(2/3)*v*cos(2*pi*f*tee-2*pi/3);
 vcs = sqrt(2/3)*v*cos(2*pi*f*tee+2*pi/3);
